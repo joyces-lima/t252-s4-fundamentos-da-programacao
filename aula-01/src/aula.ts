@@ -119,8 +119,8 @@ console.log(mensagens);
 // - Parte A
 // Liste apenas os vídeos que estão bombando (ou seja, com mais de 2000 visualizações).
 
-const videosBombando = videos.filter((video) => video.views > 2000);
-console.log(videosBombando);
+const videosBombando2 = videos.filter((video) => video.views > 2000);
+console.log(videosBombando2);
 
 // - Parte B
 // Liste os vídeos com mais dislikes (aqueles que receberam mais reações negativas).
@@ -135,8 +135,8 @@ const maxDislikes = videos.reduce((max, video) => {
     return video.dislike > max ? video.dislike : max;
 }, 0);
 
-const videosComMaisDislikes = videos.filter((video) => video.dislike === maxDislikes);
-console.log(videosComMaisDislikes);
+const videosComMaisDislikes2 = videos.filter((video) => video.dislike === maxDislikes);
+console.log(videosComMaisDislikes2);
 
 // ### Exercício – reduce
 
